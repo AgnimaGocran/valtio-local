@@ -1,0 +1,16 @@
+{
+  "name": "valtio-local",
+  "version": "1.0.0",
+  "description": "A lightweight utility for persisting reactive state using Valtio's proxy feature to localStorage.",
+  "type": "module",
+  "main": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "valtio": "^2.3.2"
+  }
+}
