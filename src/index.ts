@@ -13,7 +13,7 @@ export default function persistProxy<T extends object>(defaultValues: T, localSt
 			localStorage.setItem(localStorageKey, JSON.stringify(state));
 		});
 
-		afterRestored(state);
+		afterRestored?.(state);
 	}
 
 	return state;
